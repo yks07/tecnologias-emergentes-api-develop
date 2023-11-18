@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(cors());
 
 // routes
-app.use("/api", studentRouter);
+app.use("/api", studentRouter);3
 app.use("/api", teacherRouter);
 
 // mongodb connection
